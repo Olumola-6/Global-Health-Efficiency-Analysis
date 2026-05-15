@@ -27,8 +27,8 @@ This project investigates the relationship between national health expenditure a
 
  
  ## Data Transformation
- -  **Used Power Query to handle NULL values, corrected data types for years and financial figures and fix naming inconsistencies (e.g., standardizing "Fed. Rep." for map accuracy).**
- -  **Pivot to Panel Data: The original "Wide" format (where years were columns) was transformed into "Long/Panel" format so that each row represents a specific Country-Year observation.**
+ -  Used Power Query to handle NULL values, corrected data types for years and financial figures and fix naming inconsistencies (e.g., standardizing "Fed. Rep." for map accuracy).
+ -  Pivot to Panel Data: The original "Wide" format (where years were columns) was transformed into "Long/Panel" format so that each row represents a specific Country-Year observation.
  -  **Key Calculation:** `Efficiency Score = (Life Expectancy / Health Expenditure) * 1000`**. *To make the efficiency ratios easier to compare, i scaled the data to show the health output per $1,000 of investment.*
 
 
